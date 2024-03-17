@@ -1,5 +1,18 @@
 // URL https://www.geeksforgeeks.org/problems/delete-without-head-pointer/0
 
+/*
+class Node
+{
+	int data ;
+	Node next;
+	Node(int d)
+	{
+		data = d;
+		next = null;
+	}
+}
+*/
+
 class Solution
 {
     void deleteNode(Node del_node)
