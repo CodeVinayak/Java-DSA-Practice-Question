@@ -13,3 +13,24 @@ class Solution
 // Arrays.sort) is O(n log n)
 //Time complexity: O(nlogn)
 // Space complexity: O(n)
+
+class Solution 
+{
+    static Pair getMinMax(long a[], long n)  
+    {
+        long minimum=a[0];
+        long maximum=a[0];
+        for(int i=1;i<n;i++){
+            if(a[i]<minimum)
+            {
+                minimum=a[i];
+            }
+            if(a[i]>maximum){
+                maximum=a[i];
+            }
+        }
+        return new Pair (minimum,maximum);
+    }
+}
+//Time complexity: O(n)
+// Space complexity: O(1)
